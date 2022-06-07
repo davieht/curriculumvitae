@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Curriculum Vitae</string>
+    <string name="name_label">Name</string>
+    <string name="username_placeholder">Jane Doe</string>
+    <string name="birthdate_label">Birthdate</string>
+    <string name="birthdate_placeholder">01.01.2000</string>
+    <string name="address_label">Address</string>
+    <string name="address_placeholder">1220 Vienna, Austria</string>
+    <string name="email_label">E-Mail</string>
+    <string name="email_placeholder">jane.doe@email.com</string>
+    <string name="phone_label">Phone</string>
+    <string name="phone_placeholder">+43 650 3498432</string>
+</resources>
