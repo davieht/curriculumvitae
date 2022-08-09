@@ -16,6 +16,7 @@ import com.daveloper.curriculumvitae.AppState
 import com.daveloper.curriculumvitae.ChipVerticalGrid
 import com.daveloper.curriculumvitae.R
 import com.daveloper.curriculumvitae.data.entities.Profile
+import com.daveloper.curriculumvitae.data.entities.Profile1
 import com.daveloper.curriculumvitae.sampleProfile
 
 @Composable
@@ -41,7 +42,7 @@ fun SkillScreen(
 }
 
 @Composable
-fun ProfileEditView(profile: Profile) {
+fun ProfileEditView(profile: Profile1) {
     Column(Modifier.fillMaxWidth()) {
         OutlinedTextField(
             value = profile.name,

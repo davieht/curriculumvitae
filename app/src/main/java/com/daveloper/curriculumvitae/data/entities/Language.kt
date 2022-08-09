@@ -6,5 +6,5 @@ import androidx.room.PrimaryKey
 @Entity
 data class Language(
     @PrimaryKey val name: String,
-    val classification: Int
+    val classification: Float
 )

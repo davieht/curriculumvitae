@@ -1,4 +1,7 @@
 buildscript {
+    repositories {
+        mavenCentral()
+    }
     ext {
         compose_version = '1.2.0-beta03'
         room_version = '2.4.2'
